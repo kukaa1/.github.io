@@ -1,0 +1,509 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "도현";
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  /*background:rgba(234,212,64,.7)*/
+  z-index: 100;
+}
+
+header #title {
+  font-size: 30px;
+  float: left;
+  margin: 20px;
+  color: #ead440;
+}
+
+header #gnb {
+  float: right;
+  margin: 25% 5% 0 0;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  border-left: 2px solid #fff;
+  padding-left: 20px;
+  -webkit-box-shadow: -2px 0px #000;
+          box-shadow: -2px 0px #000;
+}
+
+header #gnb li:nth-child(1) {
+  margin-top: 0;
+}
+
+header #gnb .btn {
+  margin-top: 2vw;
+  font-size: 15px;
+}
+
+header #gnb .btn a {
+  cursor: pointer;
+}
+
+header #gnb .active {
+  color: #ead440;
+}
+
+#wrap {
+  overflow: hidden;
+  height: 100%;
+}
+
+.area {
+  width: 100%;
+  height: 100vh;
+  font-size: 30px;
+}
+
+#main {
+  background: #010101;
+}
+
+#main h2 {
+  color: #fff;
+  font-size: 50px;
+  padding: 15% 0 0 20%;
+}
+
+#main h3 {
+  color: #ead440;
+  font-size: 25px;
+  padding: 3% 0 0 20%;
+}
+
+#main .contact {
+  padding: 18% 0 0 20%;
+  color: #fff;
+  font-size: 20px;
+}
+
+#main .contact h4 {
+  letter-spacing: 5px;
+}
+
+#about {
+  background: #f0f3ed;
+}
+
+#about #intro {
+  position: relative;
+}
+
+#about #intro .me {
+  position: absolute;
+  top: 300px;
+  left: 20%;
+  /*left:50%; transform:translateX(-50%);*/
+  text-align: center;
+}
+
+#about #intro .me p {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  border-radius: 200px;
+}
+
+#about #intro .me h2 {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+#about #intro .me h3 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#about #intro .ab {
+  position: absolute;
+  top: 250px;
+  left: 46%;
+  font-size: 16px;
+}
+
+#about #intro .ab ul {
+  margin: 30px 0 0 10px;
+}
+
+#about #intro .ab li {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+#about #intro .edu {
+  position: absolute;
+  top: 500px;
+  left: 46%;
+  font-size: 16px;
+}
+
+#about #intro .edu ul {
+  margin: 30px 0 0 10px;
+}
+
+#about #intro .edu li {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+#about #intro .career {
+  position: absolute;
+  top: 250px;
+  left: 70%;
+  font-size: 16px;
+}
+
+#about #intro .career ul {
+  margin: 30px 0 0 10px;
+}
+
+#about #intro .career li {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+#about #intro .cert {
+  position: absolute;
+  top: 400px;
+  left: 70%;
+  font-size: 16px;
+}
+
+#about #intro .cert ul {
+  margin: 30px 0 0 10px;
+}
+
+#about #intro .cert li {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+#about #intro .skill {
+  position: absolute;
+  top: 600px;
+  left: 70%;
+  font-size: 16px;
+}
+
+#about #intro .skill h2 {
+  margin-bottom: 30px;
+}
+
+#about #intro .skill h3 {
+  font-size: 12px;
+  margin: 3px 0 0 10px;
+}
+
+#about #intro .skill h4 {
+  background: #fff;
+  width: 150%;
+  height: .7em;
+  border-radius: 0 10px 10px 0;
+  margin: 3px 0;
+}
+
+#about #intro .skill p {
+  margin: 5px 0 0 10px;
+  font-size: 10px;
+}
+
+#about #intro .skill h4:nth-child(3)::after {
+  content: '　';
+  width: 90%;
+  height: .7em;
+  display: inline-block;
+  background: #ead440;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-animation: skill1 5s 1;
+          animation: skill1 5s 1;
+}
+
+#about #intro .skill h4:nth-child(5)::after {
+  content: '　';
+  width: 90%;
+  height: .7em;
+  display: inline-block;
+  background: #ead440;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-animation: skill2 5s 1;
+          animation: skill2 5s 1;
+}
+
+#about #intro .skill h4:nth-child(7)::after {
+  content: '　';
+  width: 50%;
+  height: .7em;
+  display: inline-block;
+  background: #ead440;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-animation: skill3 5s 1;
+          animation: skill3 5s 1;
+}
+
+#about #intro .skill h4:nth-child(9)::after {
+  content: '　';
+  width: 80%;
+  height: .7em;
+  display: inline-block;
+  background: #ead440;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-animation: skill4 5s 1;
+          animation: skill4 5s 1;
+}
+
+#about #intro .skill h4:nth-child(11)::after {
+  content: '　';
+  width: 80%;
+  height: .7em;
+  display: inline-block;
+  background: #ead440;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-animation: skill5 5s 1;
+          animation: skill5 5s 1;
+}
+
+#about #intro .skill h4:nth-child(13)::after {
+  content: '　';
+  width: 50%;
+  height: .7em;
+  display: inline-block;
+  background: #ead440;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-animation: skill6 5s 1;
+          animation: skill6 5s 1;
+}
+
+#about #intro .skill h4:nth-child(15)::after {
+  content: '　';
+  width: 80%;
+  height: .7em;
+  display: inline-block;
+  background: #ead440;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-animation: skill7 5s 1;
+          animation: skill7 5s 1;
+}
+
+@-webkit-keyframes skill1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes skill1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes skill2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes skill2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes skill3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes skill3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes skill4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes skill4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes skill5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes skill5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes skill6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes skill6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes skill7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes skill7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+#portfolio {
+  position: relative;
+}
+
+#portfolio .inner {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+}
+
+#portfolio h3 {
+  margin-bottom: 30px;
+}
+
+#portfolio .works {
+  width: 100%;
+  height: 70%;
+  overflow-y: scroll;
+  border: 1px solid #aaa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /*justify-content:space-between; //양끝 맞추고, 간격 동일하게*/
+}
+
+#portfolio .works li {
+  width: 30%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+#portfolio .works li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#portfolio .works li:nth-child(3n+1) {
+  clear: both;
+}
+
+#portfolio .works .box {
+  border: 1px solid #aaa;
+  text-align: center;
+}
+
+#portfolio .works img {
+  width: 100%;
+}
+
+#contact {
+  background: #ffc;
+}
+
+.scrollbar {
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  z-index: 100;
+  width: 5px;
+  background: #ccc;
+  border: 1px groove #999;
+  border-radius: 3.5px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.scrollbar:hover {
+  opacity: 1 !important;
+}
+
+.scrollbar div {
+  height: 25%;
+  width: 5px;
+  background: #f00;
+  border-radius: 2.5px;
+}
+/*# sourceMappingURL=style.css.map */

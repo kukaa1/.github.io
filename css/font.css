@@ -1,0 +1,7 @@
+@font-face{
+  font-family:"도현";
+  src:url("../fonts/DoHyeon-Regular.eot") format("embedded-opentype"),
+      url("../fonts/DoHyeon-Regular.woff2") format("woff"),
+      url("../fonts/DoHyeon-Regular.woff") format("woff"),
+      url("../fonts/DoHyeon-Regular.ttf") format("truetype")
+}
